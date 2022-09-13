@@ -23,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sourcing", "Sourcing", "{BB
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{69F70A23-774B-45E3-A753-73DEDAE266D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esourcing.Sourcing", "Esourcing.Sourcing\Esourcing.Sourcing.csproj", "{91EDC451-9B59-46F7-90B1-C91DCCFF7924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esourcing.Sourcing", "Esourcing.Sourcing\Esourcing.Sourcing.csproj", "{91EDC451-9B59-46F7-90B1-C91DCCFF7924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBusRabbitMQ", "EventBusRabbitMQ\EventBusRabbitMQ.csproj", "{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,18 @@ Global
 		{91EDC451-9B59-46F7-90B1-C91DCCFF7924}.Release|x64.Build.0 = Release|Any CPU
 		{91EDC451-9B59-46F7-90B1-C91DCCFF7924}.Release|x86.ActiveCfg = Release|Any CPU
 		{91EDC451-9B59-46F7-90B1-C91DCCFF7924}.Release|x86.Build.0 = Release|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Debug|x64.Build.0 = Debug|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Debug|x86.Build.0 = Debug|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Release|x64.ActiveCfg = Release|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Release|x64.Build.0 = Release|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +99,7 @@ Global
 		{6525EDED-ED62-49BF-BBCC-1D0B19AA2AA7} = {2442E6D5-601E-45CD-9DCB-8356CFC1DDF0}
 		{BB1D96BE-F6A4-4870-83F7-5C197A29B6BE} = {2442E6D5-601E-45CD-9DCB-8356CFC1DDF0}
 		{91EDC451-9B59-46F7-90B1-C91DCCFF7924} = {BB1D96BE-F6A4-4870-83F7-5C197A29B6BE}
+		{D559CCCB-3D12-4A52-84D8-C271FFC5AAF6} = {3EA576C0-99B7-4ADB-B9A5-C4DCC16DC361}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF149407-8FA1-4D00-9825-6FAF36AB57C8}
