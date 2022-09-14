@@ -17,7 +17,7 @@ namespace Esourcing.Sourcing.Controllers
             _repository = repository;
         }
 
-        [HttpGet("GetBidByAuctionId/{auctionId:length(24)}")]
+        [HttpGet("GetBidsByAuctionId/{auctionId:length(24)}")]
         [ProducesResponseType(typeof(IEnumerable<Bid>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<Bid>>> GetBidsByAuctionId(string auctionId)
         {
